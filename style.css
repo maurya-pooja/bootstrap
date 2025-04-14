@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 1st navbar start */
+.navbar1{
+    background-color: #027269; 
+}
+.navbar1 a{
+    font-size: 1rem;
+}
+.navbar1 a:hover{
+text-decoration: underline;
+}
+.social-links i{
+    color: rgb(203, 201, 201);
+}
+.social-links i:hover{
+    color: white;
+}
+/* 1st navbar end */
+/* 2nd navbar start */
+.navbar2{
+    background-color: #008374;
+}
+.navbar2 li{
+    padding: 10px;
+}
+/* 2nd navbar end */
+/* section 1  sarted*/
+.section {
+    background-color: #008374;
+}
+.section-wrapper{   
+    background-color: #008374;
+}
+
+
+.section h1{
+    font-size: 3.1em;
+}
+
+/* section 1  end*/
+/* card start */
+.card{
+    background-color: #008374;
+}
+.card-row{
+   margin-top: -7.8%;
+
+}
+/* card end */
+/* about start */
+.viedeo i{
+font-size: 4rem;
+}
+/* about end */
+/* social apps start */
+.social-apps img{
+    height: 50px;
+}
+/* social apps ended */
