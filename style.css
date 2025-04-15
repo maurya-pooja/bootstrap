@@ -35,10 +35,18 @@ text-decoration: underline;
 .section-wrapper{   
     background-color: #008374;
 }
-
-
 .section h1{
     font-size: 3.1em;
+}
+/* @media screen and (max-width:1200px) {
+    .section{
+        display: flex;
+       flex-direction: column-reverse;
+       padding-top: 20px;
+    }
+} */
+.section .viedeo button{
+    background-color: #008374;
 }
 
 /* section 1  end*/
@@ -48,7 +56,12 @@ text-decoration: underline;
 }
 .card-row{
    margin-top: -7.8%;
-
+}
+.card-row .card{
+    box-shadow: 0 4px 8px 0 #008374, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-row .card:hover{
+    background-color: #027269;
 }
 /* card end */
 /* about start */
@@ -61,3 +74,22 @@ font-size: 4rem;
     height: 50px;
 }
 /* social apps ended */
+/* our services start */
+.services .our-sevices{
+    box-shadow: 0 4px 8px 0 #dee2e2, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.our-services span:hover{
+    border-top:4px solid green;
+}
+.services a{
+    color: gray;
+}
+.services a:hover{
+    color: #008374;
+}
+/* our services end */
+/* Testimonials start  */
+.test .testi{
+    box-shadow: 0 4px 8px 0 #dee2e2, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Testimonials ended  */
