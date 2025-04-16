@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 /* 1st navbar start */
+.navbar{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
 .navbar1{
     background-color: #027269; 
 }
@@ -20,6 +25,7 @@ text-decoration: underline;
     color: white;
 }
 /* 1st navbar end */
+
 /* 2nd navbar start */
 .navbar2{
     background-color: #008374;
@@ -28,6 +34,7 @@ text-decoration: underline;
     padding: 10px;
 }
 /* 2nd navbar end */
+
 /* section 1  sarted*/
 .section {
     background-color: #008374;
@@ -50,6 +57,7 @@ text-decoration: underline;
 }
 
 /* section 1  end*/
+
 /* card start */
 .card{
     background-color: #008374;
@@ -64,16 +72,19 @@ text-decoration: underline;
     background-color: #027269;
 }
 /* card end */
+
 /* about start */
 .viedeo i{
 font-size: 4rem;
 }
 /* about end */
+
 /* social apps start */
 .social-apps img{
     height: 50px;
 }
 /* social apps ended */
+
 /* our services start */
 .services .our-sevices{
     box-shadow: 0 4px 8px 0 #dee2e2, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -88,8 +99,20 @@ font-size: 4rem;
     color: #008374;
 }
 /* our services end */
+
 /* Testimonials start  */
 .test .testi{
     box-shadow: 0 4px 8px 0 #dee2e2, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* Testimonials ended  */
+
+/* masking start */
+.masking{
+
+}
+/* masking ended */
+/* products start */
+.products{
+    box-shadow: 0 4px 8px 0 #dee2e2, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* products end */
