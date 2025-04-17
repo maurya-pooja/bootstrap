@@ -116,3 +116,23 @@ font-size: 4rem;
     box-shadow: 0 4px 8px 0 #dee2e2, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* products end */
+/* our team start */
+.card{
+    box-shadow: 0 4px 8px 0 #a7aaaa, 0 6px 20px 0 rgba(140, 133, 133, 0.968);
+}
+/* our team ended */
+
+/* questions start */
+.questions{
+    box-shadow: 0 4px 8px 0 #a7aaaa, 0 6px 20px 0 rgba(140, 133, 133, 0.968);
+}
+
+.accordion-header:hover{
+    color: #027269;
+}
+/* questions ended */
+/* contact start */
+form{
+    box-shadow: 0 4px 8px 0 #a7aaaa, 0 6px 20px 0 rgba(140, 133, 133, 0.968);
+}
+/* contact ended */
